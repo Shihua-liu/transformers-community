@@ -71,6 +71,7 @@ button:hover {
 
 #trans{
     width: 100%;
+    height: 20px;
     background: red;
     animation: example 5s ;
 }
@@ -78,7 +79,7 @@ button:hover {
 @keyframes example {
 
     from {background-color: red;}
-  to {background-color: blue;}
+    to {background-color: blue;}
   }
 
 
