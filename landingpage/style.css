@@ -71,7 +71,6 @@ button:hover {
 
 #trans{
     width: 100%;
-    height: 20px;
     background: red;
     animation: example 5s ;
 }
