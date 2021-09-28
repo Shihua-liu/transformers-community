@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: "DNpro";
+    src: url(../font/DN\ PRO\ DN\ PRO\ MEDIUM.OTF);
+}
+
+html{
+    
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+}
+
+header {
+    font-family: DNpro;
+    background: linear-gradient(180deg, #1E07A0, #0089FA );
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+header > button{
+    margin: 20px;
+    padding: 15px;
+    background: #FE5D0D;
+    color: white;
+    border:  solid #FE7D0D;
+    border-radius: 8px 25px;
+}
+
+button:hover {
+    background: #FF2C0C;
+    opacity: 1;
+}
+
+.test{
+    background: gray;
+    height: 100vh;
+}
