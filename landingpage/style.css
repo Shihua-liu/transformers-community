@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: "DNpro";
+    src: url(../font/DN\ PRO\ DN\ PRO\ MEDIUM.OTF);
+}
+/* header met login buttons en logo */
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+    background-color: #FE9060;
+}
+
+header {
+    
+    /* background: linear-gradient(180deg, #1E07A0, #0089FA ); */
+    width: 100%;
+    background-color: white;    
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+body > header > div > button{
+    font-family: DNpro;
+    margin: 15px;
+    padding: 12px 50px;
+    background: #0089FA;
+    color: white;
+    border:  solid #0067BB;
+    border-radius: 8px 20px;    
+
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+}
+
+button:hover {
+    background: #FF2C0C;
+    opacity: 1;
+}
+
+/* hier is de slide show met de menu */
+
+.section1{
+    background: #FE9060;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "foto foto menu";
+}
+
+.fotoslider{
+    grid-area: foto;
+}
+
+.menu{
+    background: #4F32F6;
+    z-index: 1;
+    grid-area: menu;
+}
