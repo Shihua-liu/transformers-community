@@ -3,8 +3,13 @@
     font-family: "DNpro";
     src: url(../font/DN\ PRO\ DN\ PRO\ MEDIUM.OTF);
 }
+
+
+
 /* header met login buttons en logo */
+
 body{
+    font-family: 'Noto Sans Display', sans-serif;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -14,7 +19,6 @@ body{
 
 header {
     
-    /* background: linear-gradient(180deg, #1E07A0, #0089FA ); */
     width: 100%;
     background-color: white;    
     display: flex;
@@ -29,8 +33,8 @@ body > header > div > button{
     color: white;
     border:  solid #0067BB;
     border-radius: 8px 20px;    
-
 }
+
 
 .logo{
     width: 300px;
@@ -38,26 +42,87 @@ body > header > div > button{
 }
 
 button:hover {
-    background: #FF2C0C;
-    opacity: 1;
+    background: #4F32F6;
+    
 }
+
+
 
 /* hier is de slide show met de menu */
 
 .section1{
-    background: #FE9060;
+    /* background: #FE9060; */
+    background: linear-gradient(to left, #FE9060 10%, #D94708 90%);
     height: 100vh;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "foto foto menu";
+    grid-template-columns: 37% 38% 25% ;
+    grid-template-areas: "slogun foto menu";
+}
+
+.slogun{
+    
+    grid-area: slogun;
+    height: 40vh;
+    margin: 30px;
+    color: white;
+    text-align: center;
+    
+}
+
+#trans{
+    width: 100%;
+    background: red;
+    animation: example 5s ;
+}
+
+@keyframes example {
+
+    from {background-color: red;}
+  to {background-color: blue;}
+  }
+
+
+.slogun > h1{
+    font-size: 70px;
+}
+
+.slogun > h4{
+    font-size: 26px;
 }
 
 .fotoslider{
+    background: gray;
     grid-area: foto;
+    height: 40vh;
+    margin: 30px;
 }
 
 .menu{
     background: #4F32F6;
-    z-index: 1;
     grid-area: menu;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    margin: 30px;
+}
+.menu > button{
+    background: none;
+    border: none;
+    
+}
+
+.menu > button > a > h2{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    margin: 30px; 
+}
+
+.menu > button > a > h2:hover{
+    color: gray;
+}
+
+.section2{
+    background-color: black;
 }
