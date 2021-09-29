@@ -63,7 +63,7 @@ button:hover {
     
     grid-area: slogun;
     height: 40vh;
-    margin: 30px;
+    margin: -15px;
     color: white;
     text-align: center;
     
@@ -78,7 +78,7 @@ button:hover {
 @keyframes example {
 
     from {background-color: red;}
-    to {background-color: blue;}
+  ppto {background-color: blue;}
   }
 
 
