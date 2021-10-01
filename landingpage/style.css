@@ -98,7 +98,7 @@ button:hover {
     height: 100vh;
     display: grid;
     grid-template-columns: 37% 38% 25% ;
-    grid-template-areas: "slogun foto menu";
+    grid-template-areas: "slogun foto";
 }
 
 .slogun{
@@ -111,18 +111,29 @@ button:hover {
     
 }
 
-#trans{
-    width: 100%;
-    background: red;
-    animation: example 5s ;
-}
-
-@keyframes example {
-
-    from {background-color: red;}
-    to {background-color: blue;}
+#trans {
+    display: inline-block;
+    position: relative;
+    color: white;
   }
-
+  
+  #trans:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  #trans:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
 .slogun > h1{
     font-size: 70px;
@@ -213,6 +224,10 @@ button:hover {
 .header .menu-btn:checked ~ .menu-icon .nav-icon:after{
     transform: rotate(45deg);
     top:0;
+}
+
+.header ul a {
+    border-left: 0px solid;
 }
 
 
