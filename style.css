@@ -94,7 +94,7 @@ button:hover {
 
 .section1{
     /* background: #FE9060; */
-    background: linear-gradient(to left, #FE9060 10%, #D94708 90%);
+    background: linear-gradient(to left,#D94708, #FE9060, #D94708);
     height: 100vh;
     display: grid;
     grid-template-columns: 37% 38% 25% ;
