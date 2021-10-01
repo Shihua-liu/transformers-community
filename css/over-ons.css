@@ -1,0 +1,38 @@
+body{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.over-ons{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px auto;
+    background: linear-gradient(to right,#0e52d1, #03188d, #0e52d1);
+    color: white;
+    border: solid 3px #0e79d1;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.over-ons > h3 {
+    margin: 38px;
+}
+
+.werknemers{
+    background: white;    
+    width: 100%;
+
+    background-size: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.profiel-div{
+    text-align: center;
+}
+
+.werknemers > div > img{
+    border-radius: 50%;
+}

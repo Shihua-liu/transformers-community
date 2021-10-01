@@ -11,9 +11,9 @@ body{
     font-family: 'Noto Sans Display', sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     height: auto;
-    background-color: #FE9060;
+     background-color: #FE9060; 
 }
 
 .header{
@@ -157,7 +157,9 @@ button:hover {
 
 
 /* Menu voor mobiel*/
-.menu{}
+.menu{
+    font-family: DNpro;
+}
 
 .header .menu{
     clear: both;
@@ -228,6 +230,11 @@ button:hover {
 
 .header ul a {
     border-left: 0px solid;
+}
+
+i{
+    width: 100px;
+    height: 100px;
 }
 
 
