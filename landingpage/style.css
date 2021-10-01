@@ -20,7 +20,7 @@ body{
     background-color: #ffffff;
     color: #ffffff;
     box-shadow: 0px 2px 9px 1px rgba(0,0,0,0.52);
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 3;
 }
@@ -35,7 +35,7 @@ body{
 
 .header ul a{
     display: block;
-    padding: 20px;
+    padding: 10px;
     border-left: 1px solid #aaa;
     text-decoration: none;
     background-color: #ffffff;
@@ -51,15 +51,26 @@ body{
     background-color: #696969;
 }
 
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(blue, rgb(76, 6, 156));
+}
 
-body > header > div > button{
+body > div > button{
     font-family: DNpro;
     margin: 15px;
     padding: 12px 50px;
     background: #0089FA;
     color: white;
-    border:  solid #0067BB;
-    border-radius: 8px 20px;    
+    border-left:  solid #055ba1 ;
+    border-top:  solid #0e79d1 ;
+    border-right:  solid #0536a1 ;
+    border-bottom:  solid #03188d ;
+    border-radius: 10px;  
+    letter-spacing: 1px;
+    text-transform: uppercase;  
 }
 
 
@@ -69,7 +80,11 @@ body > header > div > button{
 }
 
 button:hover {
-    background: #4F32F6;
+    background: rgb(12, 87, 185);
+    border-left:  solid #045292 ;
+    border-top:  solid #0d6dbb ;
+    border-right:  solid #053292 ;
+    border-bottom:  solid #04167a ;
     
 }
 
@@ -123,6 +138,7 @@ button:hover {
     height: 40vh;
     margin: 30px;
 }
+
 
 .section2{
     background-color: black;
@@ -202,7 +218,7 @@ button:hover {
 
 /* Menu voor desktop */
 
-@media (min-width:48em){
+@media (min-width:1000px){
     .logo{
         width: 400px;
         height: auto;
@@ -212,7 +228,7 @@ button:hover {
         float:left;
     }
     .header li a{
-        padding: 20px 30px;
+        padding: 10px 10px;
     }
     .header .menu{
         clear: none;
@@ -221,5 +237,13 @@ button:hover {
     }
     .header .menu-icon{
         display: none;
+    }
+    
+}
+
+@media (max-width:1000px ){
+    .section1{
+        display: flex;
+        flex-direction:column ;
     }
 }
