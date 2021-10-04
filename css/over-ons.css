@@ -25,7 +25,6 @@ body{
 .werknemers{
     background: white;    
     width: 100%;
-
     background-size: 10%;
     display: flex;
     justify-content: space-around;
