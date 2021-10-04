@@ -268,4 +268,30 @@ i{
         display: flex;
         flex-direction:column ;
     }
+
+    .slogun > h1{
+        font-size: 50px;
+    }
+
+    .slogun > h4{
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:349px){
+    .login{
+        flex-direction: column;
+    }
+
+    .slogun{
+        
+    }
+
+    .slogun > h1{
+        font-size: 40px;
+    }
+
+    .slogun > h4{
+        margin-bottom: 0px;
+    }
 }
