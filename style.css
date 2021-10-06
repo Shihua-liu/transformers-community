@@ -20,8 +20,10 @@ body{
     padding: 0;
     overflow-x: hidden;
     height: auto;
-     background-color: #FE9060; 
+    background: linear-gradient(to left, #D94708,#FE9060 , #D94708 );
 }
+
+
 
 .header{
     background-color: #ffffff;

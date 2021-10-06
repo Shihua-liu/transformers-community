@@ -1,0 +1,50 @@
+.transformer-worden{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(to right,#0e52d1, #03188d, #0e52d1);
+    color: rgb(255, 255, 255);
+    border: solid 3px #0e79d1;
+    border-radius: 10px;
+}
+
+.vrijwilligers-list{
+    padding: 0; 
+    margin: 10px;
+}
+
+.vrijwilligers-list > li {
+
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vrijwilligers-list > li {
+    padding: 0;
+    border: solid 3px white ;
+    margin: 5px;
+    padding: 10px 100px;
+}
+
+.vrijwilligers-list > li > h4{
+    display: none;
+}
+
+.vrijwilligers-list > li > h4:hover{
+    display: block;
+}
+
+.vrijwilligers-list > li:hover{
+    padding-bottom: 300px;
+    display: block;
+}
