@@ -185,13 +185,20 @@ button:hover {
 }
 
 .slogun-footer > h1::first-letter{
-    color: #FE9060;
+    color: #D94708;
     
 }
 .slogun-footer > h3::first-letter{
-    color: #FE9060;
+    color: #D94708;
 }
 
+.social > h2::first-letter{
+    color: #D94708;
+}
+
+.footer-menu > li > a > .current{
+    color: #D94708;
+}
 
 
 .footer > .social > img{
