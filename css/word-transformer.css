@@ -32,11 +32,11 @@
     justify-content: center;
 }
 
-#hoverover > h4{
+#hoverover > p{
     display: block;
 }
 
-#hoverover > h4:hover{
+#hoverover > p:hover{
     display: none;
 }
 
@@ -45,6 +45,6 @@
 }
 
 #hoverover:hover{
-    padding-bottom: 300px;
+    padding-bottom: auto;
     display: block;
 }
