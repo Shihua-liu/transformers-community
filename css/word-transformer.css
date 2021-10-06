@@ -20,7 +20,10 @@
 }
 
 .vrijwilligers-list > li {
-
+    padding: 0;
+    border: solid 3px white ;
+    margin: 5px;
+    padding: 10px 100px;
     text-decoration: none;
     list-style: none;
     text-align: center;
@@ -29,22 +32,19 @@
     justify-content: center;
 }
 
-.vrijwilligers-list > li {
-    padding: 0;
-    border: solid 3px white ;
-    margin: 5px;
-    padding: 10px 100px;
-}
-
-.vrijwilligers-list > li > h4{
-    display: none;
-}
-
-.vrijwilligers-list > li > h4:hover{
+#hoverover > h4{
     display: block;
 }
 
-.vrijwilligers-list > li:hover{
+#hoverover > h4:hover{
+    display: none;
+}
+
+#hoverover{
+    padding: 10px 40px;
+}
+
+#hoverover:hover{
     padding-bottom: 300px;
     display: block;
 }
