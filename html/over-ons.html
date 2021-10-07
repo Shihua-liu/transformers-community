@@ -13,7 +13,8 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </head>
     
-<body>
+<body style="position: relative;
+height: 100%;">
     <header class="header">
         <img class="logo" src="../logo/logo_small.png" alt=""><input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
@@ -47,22 +48,43 @@
              We werken er naar toe om uit te groeien tot een sociale beweging van jongeren die elkaar helpt om mentaal weerbaar en veerkrachtig te zijn.
         </p>
     </div>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="profiel-div">
+                    <img src="../foto's/Andrea.png" alt="">
+                    <h4>Andrea</h4>
+                    <p>Ambassadeur en initiatiefnemer<br> van 'Andrea Asks'</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="profiel-div">
+                    <img src="../foto's/iris.png" alt="">
+                    <h4>Iris</h4> 
+                    <p>Oprichter</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="profiel-div">
+                    <img src="../foto's/elwin.png" alt="">
+                    <h4>Elwin</h4>
+                    <p>Ambassadeur</p>
+                </div>
+            </div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
     <div class="werknemers">
-        <div class="profiel-div">
-            <img src="../foto's/Andrea.png" alt="">
-            <h4>Andrea</h4>
-            <p>Ambassadeur en initiatiefnemer<br> van 'Andrea Asks'</p>
-        </div>
-        <div class="profiel-div">
-            <img src="../foto's/iris.png" alt="">
-            <h4>Iris</h4> 
-            <p>Oprichter</p>
-        </div>
-        <div class="profiel-div">
-            <img src="../foto's/elwin.png" alt="">
-            <h4>Elwin</h4>
-            <p>Ambassadeur</p>
-        </div>
+        
+        
+        
     </div>
 
     <div class="footer">
@@ -91,9 +113,23 @@
 <script>
     AOS.init();
 
-    import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
+    
 
-    const swiper = new Swiper(...)
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
 
 </script>
 </html>
