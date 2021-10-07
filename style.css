@@ -180,45 +180,49 @@ button:hover {
 /* over iris */
 .iris{
     display: grid;
-    background: gray;
     grid-template-columns: 3vw;
     grid-template-rows: 1vw;
+    margin: 20px;
     grid-template-areas: 
-    "tl tl tl tl tl"
-    "sb sb sb sb sb"
-    "img ai ai ai ai"
-    "op ai ai ai ai"
-    "op ai ai ai ai";
+    "img img img tl tl tl tl"
+    "img img img sb sb sb sb"
+    "img img img ai ai ai ai"
+    "op op op ai ai ai ai"
+    "op op op ai ai ai ai";
+    
 }
 
 .titel{
     grid-area: tl;
     text-align: center;
-    background-color: blue;
+    margin: 20px
 }
 
 .sub-titel{
     grid-area: sb;
-    background-color: #0089FA;
     text-align: center;
+    margin-top: 40px;
 }
 
 .oprichter{
     grid-area: op;
-    background: white;
     text-align: center;
-
+    margin-top: 20px;
 }
 
 .about-iris{
     grid-area: ai;
     text-align: center;
-    background: red;
+    margin: 40px;
+    word-wrap: break-word;      /* IE 5.5-7 */
+    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+    white-space: pre-wrap;      /* current browsers */
 }
 
 .iris > img{
     grid-area: img;
     border: #000000 3px solid;
+    margin: 20px;
 }
 
 /* footer, slogun van footer, icons van socialmedia*/
