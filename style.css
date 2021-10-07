@@ -19,7 +19,6 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-x:scroll;
     height: auto;
     background: white;
     /* background: linear-gradient(to left, #D94708,#FE9060 , #D94708 ); */
@@ -186,8 +185,8 @@ button:hover {
     grid-template-rows: 1vw;
     grid-template-areas: 
     "tl tl tl tl tl"
-    "img sb sb sb sb"
-    "op ai ai ai ai"
+    "sb sb sb sb sb"
+    "img ai ai ai ai"
     "op ai ai ai ai"
     "op ai ai ai ai";
 }
