@@ -222,7 +222,8 @@ button:hover {
 .iris > img{
     grid-area: img;
     border: #000000 3px solid;
-    margin: 20px;
+    margin: 3vw;
+    margin-left: 11vw;
 }
 
 /* footer, slogun van footer, icons van socialmedia*/
