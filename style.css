@@ -104,7 +104,7 @@ button:hover {
 .section1{
     /* background: #FE9060; */
     background: linear-gradient(to left,#D94708, #FE9060, #D94708);
-    height: 60vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: 37% 38% 25% ;
     grid-template-areas: "slogun foto";
