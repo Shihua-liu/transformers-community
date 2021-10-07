@@ -19,6 +19,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    overflow-x:scroll;
     height: auto;
     background: white;
     /* background: linear-gradient(to left, #D94708,#FE9060 , #D94708 ); */
@@ -175,6 +176,50 @@ button:hover {
 
 .section2{
     background-color: black;
+}
+
+/* over iris */
+.iris{
+    display: grid;
+    background: gray;
+    grid-template-columns: 3vw;
+    grid-template-rows: 1vw;
+    grid-template-areas: 
+    "tl tl tl tl tl"
+    "img sb sb sb sb"
+    "op ai ai ai ai"
+    "op ai ai ai ai"
+    "op ai ai ai ai";
+}
+
+.titel{
+    grid-area: tl;
+    text-align: center;
+    background-color: blue;
+}
+
+.sub-titel{
+    grid-area: sb;
+    background-color: #0089FA;
+    text-align: center;
+}
+
+.oprichter{
+    grid-area: op;
+    background: white;
+    text-align: center;
+
+}
+
+.about-iris{
+    grid-area: ai;
+    text-align: center;
+    background: red;
+}
+
+.iris > img{
+    grid-area: img;
+    border: #000000 3px solid;
 }
 
 /* footer, slogun van footer, icons van socialmedia*/
