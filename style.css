@@ -20,7 +20,11 @@ body{
     padding: 0;
     overflow-x: hidden;
     height: auto;
-    background: linear-gradient(to left, #D94708,#FE9060 , #D94708 );
+    background: white;
+    /* background: linear-gradient(to left, #D94708,#FE9060 , #D94708 ); */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -102,8 +106,8 @@ button:hover {
 /* slogun naast de fotoslider */
 
 .section1{
-    /* background: #FE9060; */
-    background: linear-gradient(to left,#D94708, #FE9060, #D94708);
+    background: white;
+    /* background: linear-gradient(to left,#D94708, #FE9060, #D94708); */
     height: 80vh;
     display: grid;
     grid-template-columns: 37% 38% 25% ;
@@ -115,7 +119,7 @@ button:hover {
     grid-area: slogun;
     height: 40vh;
     margin: 30px;
-    color: white;
+    color: black;
     text-align: center;
     
 }
@@ -123,10 +127,10 @@ button:hover {
 #trans {
     display: inline-block;
     position: relative;
-    color: white;
-  }
+    color: black;
+}
   
-  #trans:after {
+#trans:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -137,12 +141,12 @@ button:hover {
     background-color: red;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
+}
   
-  #trans:hover:after {
+#trans:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
 
 .slogun > h1{
     font-size: 70px;
@@ -181,6 +185,7 @@ button:hover {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: auto;
 }
 .slogun-footer{
     padding: 0; margin: 0;
