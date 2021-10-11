@@ -87,21 +87,6 @@ body > div > button{
     text-transform: uppercase;  
 }
 
-body >div > a > button{
-    font-family: DNpro;
-    margin: 15px;
-    padding: 12px 50px;
-    background: #0089FA;
-    color: white;
-    border-left:  solid #055ba1 ;
-    border-top:  solid #0e79d1 ;
-    border-right:  solid #0536a1 ;
-    border-bottom:  solid #03188d ;
-    border-radius: 10px;  
-    letter-spacing: 1px;
-    text-transform: uppercase; 
-}
-
 
 .logo{
     width: 200px;
