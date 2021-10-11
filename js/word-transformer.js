@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     function mouseOver() {
         const hover = document.getElementById("hoverover")
         const newH4 = document.getElementById("test")
-        newH4.innerHTML = 'very yes'
+        newH4.innerHTML = 'hier komt tekst te staan'
         
         hover.appendChild(newH4);
     }
