@@ -32,11 +32,7 @@
     justify-content: center;
 }
 
-#hoverover > p{
-    display: block;
-}
-
-#hoverover > p:hover{
+#test{
     display: none;
 }
 
@@ -47,4 +43,8 @@
 #hoverover:hover{
     padding-bottom: auto;
     display: block;
+}
+
+#hoverover:hover > #test{
+    display: block; 
 }
