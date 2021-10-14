@@ -19,10 +19,12 @@
     display: block;
     width: 100%;
     padding: 15px;
+    margin: 3px;
     border: none;
     outline: none;
     cursor: pointer;
     background: linear-gradient(to right,#0e52d1, #03188d, #0e52d1);
+    border: solid 3px #0e79d1;
     color: #ffffff;
     text-align: left;
     transition: background 0.2s;
