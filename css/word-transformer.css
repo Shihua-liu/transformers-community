@@ -14,40 +14,35 @@
     border-radius: 10px;
 }
 
-.vrijwilligers-list{
-    padding: 0; 
-    margin: 10px;
-}
 
-.vrijwilligers-list > li {
-    padding: 0;
-    border: solid 3px white ;
-    margin: 5px;
-    padding: 10px 100px;
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#test{
-    display: none;
-    word-wrap: break-word;      /* IE 5.5-7 */
-    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
-    white-space: pre-wrap;      /* current browsers */
-}
-
-#hoverover{
-    padding: 10px 40px;
-}
-
-#hoverover:hover{
-    padding-bottom: auto;
+.accordion-btn{
     display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(to right,#0e52d1, #03188d, #0e52d1);
+    color: #ffffff;
+    text-align: left;
+    transition: background 0.2s;
 }
 
-#hoverover:hover > #test{
-    display: block; 
+.accordion-btn::after{
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+
+.accordion-btn--active { background: linear-gradient(to right,#0e52d1, #03188d, #0e52d1);}
+.accordion-btn--active::after { content: '\25b4'}
+
+.accordion-content{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s;
+
+    padding: 0 15px;
+    font-family: 'Noto Sans Display', sans-serif;
+
 }
