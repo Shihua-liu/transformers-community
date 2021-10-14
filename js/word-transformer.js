@@ -1,18 +1,14 @@
-// window.addEventListener('DOMContentLoaded', (event) => {
-//     document.getElementById("hoverover").onmouseover = function() {mouseOver()};
-//     document.getElementById("hoverover").onmouseout = function() {mouseOut()};
+document.querySelectorAll('.accordion-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const accordioncontent = button.nextElementSibling;
 
-//     function mouseOver() {
-//         const hover = document.getElementById("hoverover")
-//         const newH4 = document.getElementById("test")
-//         newH4.innerHTML = 'hier komt tekst te staan'
-        
-//         hover.appendChild(newH4);
-//     }
-//     function mouseOut() {
-//         document.getElementById("test").innerHTML = ""
-        
-//     }
+        button.classList.toggle('accordion-btn--active');
 
-    
-// })
+        if (button.classList.contains('accordion-btn--active')) {
+            accordioncontent.style.maxHeight = accordioncontent.scrollHeight + 'px';
+        }
+        else {
+            accordioncontent.style.maxHeight = 0;
+        }
+    });
+});
