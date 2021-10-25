@@ -106,6 +106,7 @@ body >div > a > button{
 .logo{
     width: 200px;
     height: auto;
+    padding: 5px;
 }
 
 button:hover {
@@ -495,12 +496,16 @@ i{
 
 @media (min-width:1000px){
     .logo{
-        width: 400px;
-        height: auto;
+        width: 300px;
+        /* height: auto; */
+        padding: 5px;
+        margin: 0px 0px 0px 35px;
     }
 
     .header li{
         float:left;
+        padding-right: 35px;
+        
     }
     .header li a{
         padding: 10px 10px;
