@@ -1,6 +1,6 @@
 @font-face {
     font-family: "DNpro";
-    src: url(../font/DN\ PRO\ DN\ PRO\ MEDIUM.OTF);
+    src: url('font/DN\ PRO\ DN\ PRO\ MEDIUM.OTF');
 }
 
 h1{
