@@ -302,10 +302,14 @@ button:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 10px;
 }
 
 .section2{
     background-color: black;
+}
+#item-section1{
+    margin: 5px 40px
 }
 
 /* over iris */
