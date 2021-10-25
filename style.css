@@ -65,6 +65,7 @@ body{
 }
 
 .login{
+    font-family: DNpro;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -83,8 +84,7 @@ body > div > button{
     border-right:  solid #0536a1 ;
     border-bottom:  solid #03188d ;
     border-radius: 10px;  
-    letter-spacing: 1px;
-    text-transform: uppercase;  
+    letter-spacing: 1px;  
 }
 
 
@@ -562,6 +562,7 @@ i{
 
 @media (max-width:349px){
     .login{
+        font-family: DNpro;
         flex-direction: column;
     }
 
