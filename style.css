@@ -65,10 +65,11 @@ body{
 }
 
 .login{
+    font-family: DNpro;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: linear-gradient(blue, rgb(76, 6, 156));
+    background: #2D0AF4;
 }
 
 
@@ -83,8 +84,7 @@ body > div > button{
     border-right:  solid #0536a1 ;
     border-bottom:  solid #03188d ;
     border-radius: 10px;  
-    letter-spacing: 1px;
-    text-transform: uppercase;  
+    letter-spacing: 1px;  
 }
 
 
@@ -100,12 +100,12 @@ body >div > a > button{
     border-bottom:  solid #03188d ;
     border-radius: 10px;  
     letter-spacing: 1px;
-    text-transform: uppercase; 
 }
 
 .logo{
     width: 200px;
     height: auto;
+    padding: 5px;
 }
 
 button:hover {
@@ -140,7 +140,7 @@ button:hover {
     color: black;
 }
   
-#trans:after {
+/* #trans:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -156,16 +156,19 @@ button:hover {
 #trans:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-}
+} */
 
 .slogun > h1{
-    font-size: 70px;
+    font-size: 60px;
     border: solid;
 }
 
-.slogun > h4{
-    font-size: 26px;
+.slogun > p{
+    margin: 10px 50px;
+    text-align: left;
 }
+
+
 
 .lid{
     color: black;
@@ -302,10 +305,14 @@ button:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 10px;
 }
 
 .section2{
     background-color: black;
+}
+#item-section1{
+    margin: 5px 40px
 }
 
 /* over iris */
@@ -315,24 +322,24 @@ button:hover {
     grid-template-rows: 1vw;
     margin: 40px;
     grid-template-areas: 
-    "img img img tl tl tl tl"
-    "img img img sb sb sb sb"
-    "img img img ai ai ai ai"
-    "op op op ai ai ai ai"
-    "op op op ai ai ai ai";
+    "img img img tl tl tl tl tl tl"
+    "img img img sb sb sb sb sb sb"
+    "img img img ai ai ai ai ai ai"
+    "op op op ai ai ai ai ai ai"
+    "op op op ai ai ai ai ai ai";
     
 }
 
 .titel{
     grid-area: tl;
-    text-align: center;
-    margin: 20px
+    text-align: left;
+    margin: 20px 100px
 }
 
 .sub-titel{
     grid-area: sb;
-    text-align: center;
-    margin-top: 40px;
+    text-align: left;
+    margin: 40px 100px;
 }
 
 .oprichter{
@@ -343,7 +350,7 @@ button:hover {
 
 .about-iris{
     grid-area: ai;
-    text-align: center;
+    text-align: left;
     margin: 40px;
     word-wrap: break-word;      /* IE 5.5-7 */
     white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
@@ -358,7 +365,7 @@ button:hover {
 
 /* footer, slogun van footer, icons van socialmedia*/
 .footer{
-    background: blue;
+    background: #2D0AF4;
     color: white;
     display: flex;
     flex-direction: row;
@@ -491,12 +498,16 @@ i{
 
 @media (min-width:1000px){
     .logo{
-        width: 400px;
-        height: auto;
+        width: 300px;
+        /* height: auto; */
+        padding: 5px;
+        margin: 0px 0px 0px 35px;
     }
 
     .header li{
         float:left;
+        padding-right: 35px;
+        
     }
     .header li a{
         padding: 10px 10px;
@@ -553,6 +564,7 @@ i{
 
 @media (max-width:349px){
     .login{
+        font-family: DNpro;
         flex-direction: column;
     }
 
