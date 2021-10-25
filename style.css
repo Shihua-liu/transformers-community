@@ -160,13 +160,11 @@ button:hover {
 } */
 
 .slogun > h1{
-    font-size: 70px;
+    font-size: 60px;
     border: solid;
 }
 
-.slogun > h4{
-    font-size: 26px;
-}
+
 
 .lid{
     color: black;
