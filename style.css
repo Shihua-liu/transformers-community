@@ -69,7 +69,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: linear-gradient(blue, rgb(76, 6, 156));
+    background: #2D0AF4;
 }
 
 
@@ -100,7 +100,6 @@ body >div > a > button{
     border-bottom:  solid #03188d ;
     border-radius: 10px;  
     letter-spacing: 1px;
-    text-transform: uppercase; 
 }
 
 .logo{
@@ -346,7 +345,7 @@ button:hover {
 
 .about-iris{
     grid-area: ai;
-    text-align: center;
+    text-align: left;
     margin: 40px;
     word-wrap: break-word;      /* IE 5.5-7 */
     white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
@@ -361,7 +360,7 @@ button:hover {
 
 /* footer, slogun van footer, icons van socialmedia*/
 .footer{
-    background: blue;
+    background: #2D0AF4;
     color: white;
     display: flex;
     flex-direction: row;

@@ -3,12 +3,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     width: 50%;
     height: auto;
     margin: 50px auto;
     padding: 30px;
-    background: linear-gradient(to right,#0e52d1, #03188d, #0e52d1);
+    background: #2D0AF4;
     color: rgb(255, 255, 255);
     border: solid 3px #0e79d1;
     border-radius: 10px;
@@ -23,7 +23,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background: linear-gradient(to right,#0e52d1, #03188d, #0e52d1);
+    background: #2D0AF4;
     border: solid 3px #0e79d1;
     color: #ffffff;
     text-align: left;
@@ -36,7 +36,7 @@
     transform: scale(1.5);
 }
 
-.accordion-btn--active { background: linear-gradient(to right,#0e52d1, #03188d, #0e52d1);}
+.accordion-btn--active { background: #2D0AF4;}
 .accordion-btn--active::after { content: '\25b4'}
 
 .accordion-content{
