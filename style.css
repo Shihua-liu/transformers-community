@@ -140,7 +140,7 @@ button:hover {
     color: black;
 }
   
-#trans:after {
+/* #trans:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -156,7 +156,7 @@ button:hover {
 #trans:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-}
+} */
 
 .slogun > h1{
     font-size: 70px;
