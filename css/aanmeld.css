@@ -1,0 +1,15 @@
+.formulier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 70px;
+}
+
+
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}

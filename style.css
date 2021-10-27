@@ -72,6 +72,10 @@ body{
     background: #2D0AF4;
 }
 
+.login > button{
+    text-decoration: none;
+}
+
 
 body > div > button{
     font-family: DNpro;
@@ -229,7 +233,7 @@ button:hover {
   }
   
   .manual-btn{
-    border: 2px solid #40D3DC;
+    /* border: 2px solid #40D3DC; */
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -241,7 +245,7 @@ button:hover {
   }
   
   .manual-btn:hover{
-    background: #40D3DC;
+    /* background: #40D3DC; */
   }
   
   #radio1:checked ~ .first{
@@ -271,7 +275,7 @@ button:hover {
   }
   
   .navigation-auto div{
-    border: 2px solid #40D3DC;
+    /* border: 2px solid #40D3DC; */
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -281,7 +285,7 @@ button:hover {
     margin-right: 40px;
   }
   
-  #radio1:checked ~ .navigation-auto .auto-btn1{
+  /* #radio1:checked ~ .navigation-auto .auto-btn1{
     background: #40D3DC;
   }
   
@@ -295,7 +299,7 @@ button:hover {
   
   #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40D3DC;
-  }
+  } */
         
 .section1{
     background: white;
