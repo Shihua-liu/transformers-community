@@ -27,8 +27,6 @@
     
         <div class="formulier">
             <form action="" method="POST">
-                
-                
                 <div class="form-group">
                     <label for="voornaam">voornaam:</label>
                     <input type="text" name="voornaam" value="" class="form-input" id="voornaam" required>
@@ -40,8 +38,8 @@
                 </div>
                 <br>
                 <div class="form-group">
-                    <label for="username">username:</label>
-                    <input type="text" name="username" value="" class="form-input" id="username" required>
+                    <label for="username">gebruikersnaam:</label>
+                    <input type="text" name="gebruikersnaam" value="" class="form-input" id="gebruikersnaam" required>
                 </div>
                 <br>
                 <div class="form-group">

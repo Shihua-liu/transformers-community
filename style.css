@@ -72,8 +72,9 @@ body{
     background: #2D0AF4;
 }
 
-.login > button{
+.login > a {
     text-decoration: none;
+    color: white;
 }
 
 
